@@ -1,0 +1,50 @@
+
+#sitebody{
+width:600px;
+margin:0 auto;
+font-size:13px;
+}
+
+#header1{
+background-color:#FFD4D4; 
+width:120px; 
+height: 200px;
+text-align:left; 
+float:left;
+}
+
+#header2{
+    height: 200px;
+background-color:#FFD4D4;  
+text-align:center;   
+}
+
+#sidebar_left1{
+background-color:#FFECC9;
+width:120px; 
+height: 200px;
+text-align:center; 
+float:left;
+} 
+
+#sidebar_right1{
+background-color:#FFECC9; 
+height: 200px;
+text-align:center;  
+} 
+
+
+#sidebar_left2{
+background-color:#FFECC9;
+width:120px; 
+height: 200px;
+text-align:center; 
+float:left;
+} 
+
+#sidebar_right2{
+background-color:#FFECC9; 
+height: 200px;
+text-align:center;  
+} 
+    
