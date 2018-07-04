@@ -1,12 +1,13 @@
 
 #sitebody{
 width:600px;
+height: 1000px;
 margin:0 auto;
 font-size:13px;
 }
 
 #header1{
-background-color:#FFD4D4; 
+/*background-color:#FFD4D4; */
 width:120px; 
 height: 200px;
 text-align:left; 
@@ -14,37 +15,66 @@ float:left;
 }
 
 #header2{
-    height: 200px;
-background-color:#FFD4D4;  
-text-align:center;   
+height: 200px;
+/*background-color:#FFD4D4;  */
+text-align:left;   
 }
 
-#sidebar_left1{
-background-color:#FFECC9;
-width:120px; 
-height: 200px;
-text-align:center; 
+#Left{
+/*background-color:#FFECC9;*/
+padding: 10px;
+width:250px;  
+text-align:left; 
 float:left;
 } 
 
-#sidebar_right1{
-background-color:#FFECC9; 
-height: 200px;
-text-align:center;  
+#Right{
+/*background-color:#FFECC9;  */
+width:800px;   
+text-align:left;   
 } 
 
-
-#sidebar_left2{
-background-color:#FFECC9;
-width:120px; 
-height: 200px;
-text-align:center; 
-float:left;
+#Projecttitle{
+padding: 0px 0px 0px 10px; 
 } 
 
-#sidebar_right2{
-background-color:#FFECC9; 
-height: 200px;
-text-align:center;  
+#Education{
+padding: 0px 0px 0px 10px; 
 } 
-    
+     
+  
+#Right_ProductionMySelf{
+padding: 10px; 
+} 
+     
+
+
+.Right_CompanyName{
+background-color:rgb(255, 201, 201);  
+float: left; 
+}
+
+.Right_Endtime{
+background-color:rgb(201, 255, 239);  
+float: right; 
+}
+
+.Right_CompanyPosition{
+background-color:#FFECC9;  
+float: left;
+
+}
+
+
+/*
+
+<div id = "Right_CICBlock">
+        <div id="Right_CIC">
+                <h2>國家晶片系統設計中心</h2> 
+        </div>
+        <div id="Right_CICEndTime">
+                <h2>2018.迄今</h2> 
+        </div> 
+    </div>
+
+    */
