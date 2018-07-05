@@ -1,0 +1,36 @@
+
+
+body{
+margin: 0px;
+
+}
+ 
+
+#Top{
+background-color: red;
+position: fixed;
+width: 1200px;
+height: 15%; 
+}
+
+
+#Left{
+background-color: blue;
+position: fixed;
+width:10em;  height: auto;
+top: 15%;
+right: Auto;
+bottom: 100px;
+left: 0px;
+
+}
+
+
+
+
+
+
+
+
+
+
