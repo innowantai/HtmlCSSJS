@@ -1,80 +1,87 @@
 
-#sitebody{
-width:600px;
-height: 1000px;
-margin:0 auto;
-font-size:13px;
+
+body{
+margin: 0px;  
+}
+    
+
+#Frame{ 
+width: 900px;
+height: 90%;
+background-color: rgba(255, 240, 240, 0.034);
 }
 
-#header1{
-/*background-color:#FFD4D4; */
-width:120px; 
-height: 200px;
-text-align:left; 
-float:left;
+
+#Top{ 
+position: fixed;
+width: 800px;
+height: 15%; 
 }
 
-#header2{
-height: 200px;
-/*background-color:#FFD4D4;  */
-text-align:left;   
-}
-
-#Left{
-/*background-color:#FFECC9;*/
-padding: 10px;
-width:250px;  
-text-align:left; 
-float:left;
-} 
-
-#Right{
-/*background-color:#FFECC9;  */
-width:800px;   
-text-align:left;   
-} 
-
-#Projecttitle{
-padding: 0px 0px 0px 10px; 
-} 
-
-#Education{
-padding: 0px 0px 0px 10px; 
-} 
-     
-  
-#Right_ProductionMySelf{
-padding: 10px; 
-} 
-     
-
-
-.Right_CompanyName{
-background-color:rgb(255, 201, 201);  
-float: left; 
-}
-
-.Right_Endtime{
-background-color:rgb(201, 255, 239);  
-float: right; 
-}
-
-.Right_CompanyPosition{
-background-color:#FFECC9;  
-float: left;
+#Top_Describe
+{
+    position: fixed;
+    top: 1.5%;
+    left: 140px;
+    right: auto;
+    bottom: auto;
 
 }
 
 
-/*
 
-<div id = "Right_CICBlock">
-        <div id="Right_CIC">
-                <h2>國家晶片系統設計中心</h2> 
-        </div>
-        <div id="Right_CICEndTime">
-                <h2>2018.迄今</h2> 
-        </div> 
-    </div>
+#Left{ 
+position: fixed;
+width:250px; 
 
-    */
+top: 15%; right: Auto; bottom: auto; left: 0px;
+line-height: 22px;
+}
+
+#Left_Education
+{
+margin-left: 5px;
+}
+
+.Left_Title{
+    margin-left: 5px;
+}
+
+.Left_Project{   
+    margin-left: 10px;
+}
+
+
+
+
+
+#Right{ 
+position: fixed; width:600px; 
+top: 15%; right: Auto; bottom: Auto; left: 250px; 
+margin-left: 14px;
+}
+
+.Right_Title{
+position: relative; 
+}
+
+#Right_Experience,#Right_Introduction
+{
+    margin-left: 5px;
+}  
+
+.Right_EndTime
+{
+    position: fixed;  
+    left: 750px;  
+    text-align: right;
+}
+.Right_Describe
+{
+    line-height: 28px;
+}
+
+.Right_Position{
+    color: rgb(180,180,180)
+}
+    
