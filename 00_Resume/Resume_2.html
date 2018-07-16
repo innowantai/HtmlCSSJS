@@ -20,7 +20,8 @@
             margin-Left: 400px;
 
             display: flex;
-            flex-flow: row wrap; 
+            flex-flow: row wrap;  
+            
 
         }
         .panel{
@@ -41,20 +42,31 @@
             width: 550px; 
         }
 
+
         .Skills{
             font-family: 'Times New Roman', Times, serif;
         }
 
         .Right.Position{
             color: darkgray;
+        } 
+
+        .Right.CompanyNameAndEndTime{
+            display: flex;
+            flex-direction: row;
+            align-content: space-around;  
+            flex-basis: 0;
         }
-        .Right.EndTime{ 
-         /* position: relative;
-          right: Auto; bottom: auto; left: 0px;  top: 15%; 
-*/
+        .Right.CompanyName{
+            flex-grow: 3;
+            background-color : #ffa;
         }
- 
-    
+        .Right.EndTime{
+            background-color : #faa;
+            flex-grow: 1;
+        }
+            
+
     
     </style>
 </head>
@@ -79,79 +91,89 @@
             </div>
              
         </div>
-        <div class="panel Left"> 
-            <h1>技能</h1>    
-            <h2 class="Left Title">專長</h2>  
-            <ul class="Left List Expertise">
-                <li>監測訊號分析與處理理</li>
-                <li>結構系統量量測與識別</li> 
-            </ul>
+         
+            <div class="panel Left"> 
+                <h1>技能</h1>    
+                <h2 class="Left Title">專長</h2>  
+                <ul class="Left List Expertise">
+                    <li>監測訊號分析與處理理</li>
+                    <li>結構系統量量測與識別</li> 
+                </ul>
 
-            <h2 class="Left Title">程式與軟體</h2>  
-            <ul class="Left List Skills">
-                <li>Matlab</li>
-                <li>Python</li> 
-                <li>C#</li> 
-                <li>Visual Basic .NET</li> 
-                <li>ASP.NET MVC</li> 
-                <li>HTML/CSS/JavaScript</li> 
-                <li>Git/Github</li> 
-                <li>C++</li> 
-                <li>SAP2000</li> 
-                <li>Word</li> 
-                <li>PowerPoint</li> 
-                <li>Word</li>  
-            </ul>
+                <h2 class="Left Title">程式與軟體</h2>  
+                <ul class="Left List Skills">
+                    <li>Matlab</li>
+                    <li>Python</li> 
+                    <li>C#</li> 
+                    <li>Visual Basic .NET</li> 
+                    <li>ASP.NET MVC</li> 
+                    <li>HTML/CSS/JavaScript</li> 
+                    <li>Git/Github</li> 
+                    <li>C++</li> 
+                    <li>SAP2000</li> 
+                    <li>Word</li> 
+                    <li>PowerPoint</li> 
+                    <li>Word</li>  
+                </ul>
 
-            <h2 class="Left Title">語言</h2>  
-            <ul class="Left List">
-                <li>中文</li>
-                <li>英文</li> 
-            </ul>
+                <h2 class="Left Title">語言</h2>  
+                <ul class="Left List">
+                    <li>中文</li>
+                    <li>英文</li> 
+                </ul>
 
-            <h1>教育</h1>   
-            <div id = "Left Education">
-                    <span>雲林林科技大學營建工程學士 2014</span> <br>
-                    <span>雲林林科技大學營建工程碩士 2015</span>    
-            </div> 
-            <div class="Left Project">
-                
-                        <p> 題目:<br>
-                            <span>應用於斜張鋼纜索力受溫度影響分析之快速收斂經驗模態分解法</span>
-                        </p>  
+                <h1>教育</h1>   
+                <div id = "Left Education">
+                        <span>雲林林科技大學營建工程學士 2014</span> <br>
+                        <span>雲林林科技大學營建工程碩士 2015</span>    
+                </div> 
+                <div class="Left Project">
+                    
+                            <p> 題目:<br>
+                                <span>應用於斜張鋼纜索力受溫度影響分析之快速收斂經驗模態分解法</span>
+                            </p>  
+                </div>
+                    
             </div>
+            <div class="panel Right">
+                <div class="Right Title"> <h1>自傳</h1> </div>
+                <div id="Right Introduction">
+                    <p class="Right Describe">
+                        大學就讀於雲科營建系，本身對於數理方面非常擅長，求學時成績名列前茅。在實務專題中接觸到『隨機遞減法』、『強效隨機遞減法』、『亞伯拉罕時間域識別法』⋯等訊號識別技術，讓我對結構監測與訊號處理產生很大興趣決定繼續留下來攻讀研究所結構組。我的研究主題主要針對斜張橋損傷監測訊號前處理所使用之『經驗模態分解法進行改良以達到快速收斂效果節省計算效率。在求學期間，非常感謝兩位指導教授的指導與幫忙，我才得以在五年內完成學士與碩士的學位。為了進行訊號處理自學了Matlab後，開啟了我對程式方面的興趣，爾後也學習了其他程式語言，隨著科技進步AI的崛起，閒暇之餘也對其加以琢磨，相信未來可以應用來解決各種不同問題。最後，在未來的職場生涯，會要求自己的表現能盡善盡美，自己被付予的任務能使命必達。 並且從中學習充實自己，對公司帶來更多的貢獻，並與公司共同成長。
+                    </p>
+                </div> 
+
+                <div class="Right Title"> <h1>經歷</h1> </div>
+
+                <div id="Right Experience">
+                    <p>  
+                        <span class="Right CompanyNameAndEndTime">
+                            <span class="Right CompanyName">國家晶片系統設計中心</span>  
+                            <span class="Right EndTime"> 2018.迄今</span> <br> 
+                        </span>
+                        <span class="Right Position">專案佐理工程師</span> <br>
+                        <span class="Right Describe">協助晶片中心針對橋索索力量測之智慧型無線感測器開發與測試。</span>
+                    </p>  
+                    <p>  
+                        <span class="Right CompanyNameAndEndTime">
+                            <span class="Right CompanyName">國立雲林科技大學營建工程系</span>  
+                            <span class="Right EndTime"> 2017</span> <br> 
+                        </span>
+                        <span class="Right Position">專案研究助理理</span> <br>
+                        <span class="Right Describe">擔任吳文華教授的研究助理，主要負責中科管理局大樓及工商⼤大樓之長期監測計畫案，使⽤『隨機子空間識別法』對其長達兩年之長期監測訊號進行彙整與分析並建立其完整損傷偵測機制，期間也協助教授對該訊號分析之演算法進行改良，推導出更有計算效率之公式改善分析時間。2017年8月南台地震中⼼開幕展⽰中撰寫監測程式進行結構損壞監測有著不錯的成果。</span> 
+                    </p>  
+                    <p>                     
+                        <span class="Right CompanyNameAndEndTime">
+                            <span class="Right CompanyName">兵役 – 陸軍步兵訓練指揮部 下士觀測士</span>  
+                            <span class="Right EndTime"> 2015-2016</span> <br> 
+                        </span>
+                    </p>  
                 
-        </div>
-        <div class="panel Right">
-            <div class="Right Title"> <h1>自傳</h1> </div>
-            <div id="Right Introduction">
-                <p class="Right Describe">
-                    大學就讀於雲科營建系，本身對於數理方面非常擅長，求學時成績名列前茅。在實務專題中接觸到『隨機遞減法』、『強效隨機遞減法』、『亞伯拉罕時間域識別法』⋯等訊號識別技術，讓我對結構監測與訊號處理產生很大興趣決定繼續留下來攻讀研究所結構組。我的研究主題主要針對斜張橋損傷監測訊號前處理所使用之『經驗模態分解法進行改良以達到快速收斂效果節省計算效率。在求學期間，非常感謝兩位指導教授的指導與幫忙，我才得以在五年內完成學士與碩士的學位。為了進行訊號處理自學了Matlab後，開啟了我對程式方面的興趣，爾後也學習了其他程式語言，隨著科技進步AI的崛起，閒暇之餘也對其加以琢磨，相信未來可以應用來解決各種不同問題。最後，在未來的職場生涯，會要求自己的表現能盡善盡美，自己被付予的任務能使命必達。 並且從中學習充實自己，對公司帶來更多的貢獻，並與公司共同成長。
-                </p>
-            </div> 
-
-            <div class="Right Title"> <h1>經歷</h1> </div>
-
-            <div id="Right Experience">
-                <p>  
-                    <span class="Right CompanyName">國家晶片系統設計中心</span>  
-                    <span class="Right EndTime"> 2018.迄今</span> <br> 
-                    <span class="Right Position">專案佐理工程師</span> <br>
-                    <span class="Right Describe">協助晶片中心針對橋索索力量測之智慧型無線感測器開發與測試。</span>
-                </p>  
-                <p>  
-                    <span class="Right CompanyName">國立雲林科技大學營建工程系</span>  
-                    <span class="Right EndTime"> 2017</span> <br> 
-                    <span class="Right Position">專案研究助理理</span> <br>
-                    <span class="Right Describe">擔任吳文華教授的研究助理，主要負責中科管理局大樓及工商⼤大樓之長期監測計畫案，使⽤『隨機子空間識別法』對其長達兩年之長期監測訊號進行彙整與分析並建立其完整損傷偵測機制，期間也協助教授對該訊號分析之演算法進行改良，推導出更有計算效率之公式改善分析時間。2017年8月南台地震中⼼開幕展⽰中撰寫監測程式進行結構損壞監測有著不錯的成果。</span> 
-                </p>  
-                <p> <span class="Right CompanyName">兵役 – 陸軍步兵訓練指揮部 下士觀測士</span>  
-                    <span class="Right EndTime"> 2015-2016</span> <br> 
-                </p>  
-            
+                </div>
             </div>
  
-        </div>
+         
+
     </div>
 
 
